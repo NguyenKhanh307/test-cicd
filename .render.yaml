@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: test-cicd
+    env: static
+    staticPublicDir: .
+    autoDeploy: true
+    branch: main
